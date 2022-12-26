@@ -351,23 +351,36 @@ export default function Home() {
                               scope="col"
                               class="py-3 px-6 text-xs font-medium tracking-wider text-left text-gray-700 uppercase dark:text-gray-400"
                             >
-                              Product Name
+                              Invoice
                             </th>
                             <th
                               scope="col"
                               class="py-3 px-6 text-xs font-medium tracking-wider text-left text-gray-700 uppercase dark:text-gray-400"
                             >
-                              Category
+                              Amount
                             </th>
                             <th
                               scope="col"
                               class="py-3 px-6 text-xs font-medium tracking-wider text-left text-gray-700 uppercase dark:text-gray-400"
                             >
-                              Price
+                              Date
+                            </th>
+                            <th
+                              scope="col"
+                              class="py-3 px-6 text-xs font-medium tracking-wider text-left text-gray-700 uppercase dark:text-gray-400"
+                            >
+                              Status
+                            </th>
+                            <th
+                              scope="col"
+                              class="py-3 px-6 text-xs font-medium tracking-wider text-left text-gray-700 uppercase dark:text-gray-400"
+                            >
+                              Users on plan
                             </th>
                             <th scope="col" class="p-4">
                               <span class="sr-only">Edit</span>
                             </th>
+                            
                           </tr>
                         </thead>
                         <tbody class="bg-white divide-y divide-gray-200">
@@ -384,16 +397,22 @@ export default function Home() {
                                 </label>
                               </div>
                             </td>
-                            <td class="py-4 px-6 text-sm font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                              Apple Imac 27"
+                            <td class="py-4 px-6 text-sm font-medium text-gray-900 whitespace-nowrap">
+                            Basic Plan – Dec 2022
                             </td>
-                            <td class="py-4 px-6 text-sm font-medium text-gray-500 whitespace-nowrap dark:text-white">
-                              Desktop PC
+                            <td class="py-4 px-6 text-sm font-medium text-gray-500 whitespace-nowrap">
+                             USD $10.00
                             </td>
-                            <td class="py-4 px-6 text-sm font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                            <td class="py-4 px-6 text-sm font-medium text-gray-900 whitespace-nowrap">
+                              Dec 1, 2022
+                            </td>
+                            <td class="py-4 px-6 text-sm font-medium text-gray-900 whitespace-nowrap">
+                              Paid
+                            </td>
+                            <td class="py-4 px-6 text-sm font-medium text-gray-900 whitespace-nowrap">
                               $1999
                             </td>
-                            <td class="py-4 px-6 text-sm font-medium text-right whitespace-nowrap">
+                          <td class="py-4 px-6 text-sm font-medium text-right whitespace-nowrap">
                               <a
                                 href="#"
                                 class="text-blue-600 dark:text-blue-500 hover:underline"
