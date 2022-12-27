@@ -131,7 +131,7 @@ export default function Home() {
               Manage your team and preferences here.
             </p>
           </div>
-          <div className="flex items-center mt-6 mb-8 rounded-lg border-solid border">
+          <div className="flex w-fit items-center mt-6 mb-8 rounded-lg border-solid border">
             <div className=" border-r font-medium text-[#344054] text-sm py-[10px] px-4">
               My details
             </div>
@@ -317,11 +317,20 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="flex justify-between items-center">
+
+
+            <div className="mt-5 flex justify-between items-center">
               <h1 className="leading-[38px] text-lg text-[#101828] mb-1">
                 Billing history
               </h1>
-              <button>Download</button>
+              <button class="bg-white border hover:bg-grey text-[#344054] text-sm font-medium py-3 px-5 rounded-lg inline-flex items-center">
+              <img
+                className="mr-2"
+                src="/sidebar/download-icon.svg"
+                alt="Vercel"
+              />
+                <span>Download all</span>
+              </button>
             </div>
 
             <div className="my-7">
